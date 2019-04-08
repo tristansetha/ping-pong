@@ -1,5 +1,7 @@
 import './styles.css';
+import $ from 'jquery';
 import { pingPong } from './ping-pong';
+
 
 $(document).ready(function(){
   $('#ping-pong-form').submit(function(event){
